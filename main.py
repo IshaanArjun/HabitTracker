@@ -4,9 +4,9 @@ from datetime import datetime
 
 
 # Define constants for Pixela API
-USERNAME = "ishaandev"
-TOKEN = "342rf2r356=2ht45621gfhetje"
-GRAPH_ID = "graph1"
+USERNAME = "[PROVIDE_NAME]"
+TOKEN = "[API_TOKEN_FROM_PIXELA]"
+GRAPH_ID = "[PROVIDE_NAME_OF_GRAPH]"
 
 
 # Set endpoint for creating a new user
@@ -34,7 +34,7 @@ graph_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs"
 # Define parameters for creating a new graph
 graph_params = {
     "id": GRAPH_ID,
-    "name": "Passion Graph",
+    "name": "[PROVIDE_NAME]",
     "unit": "minutes",
     "type": "float",
     "color": "momiji"
